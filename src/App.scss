@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/assets/font/Poppins-Regular.ttf');
+  src: local('Poppins Regular'), local('Poppins-Regular'),
+    url('/assets/font/Poppins-Regular.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/assets/font/Poppins-Medium.ttf');
+  src: local('Poppins Medium'), local('Poppins-Medium'),
+    url('./assets/font/Poppins-Medium.ttf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/assets/font/Poppins-Bold.ttf');
+  src: local('Poppins Bold'), local('Poppins-Bold'),
+    url('/assets/font/Poppins-Bold.ttf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #202020;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #045de9;
+  background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    padding: 30px;
+    -webkit-box-shadow: 10px 10px 45px 0px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 10px 10px 45px 0px rgba(0, 0, 0, 0.39);
+    box-shadow: 10px 10px 45px 0px rgba(0, 0, 0, 0.39);
+    border-radius: 15px;
+
+    h2 {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .input-box {
+      display: flex;
+      flex-direction: column;
+
+      label {
+        font-size: 13px;
+        margin-bottom: 3px;
+        font-weight: 600;
+      }
+
+      input,
+      textarea {
+        border-radius: 5px;
+        border: 1px solid #bfbfbf;
+        font-size: 14px;
+        padding: 10px;
+      }
+
+      input {
+        height: 35px;
+        margin-bottom: 10px;
+      }
+
+      textarea {
+        width: 100%;
+      }
+
+      img {
+        position: absolute;
+        top: 33px;
+        left: 9px;
+        width: 14px;
+      }
+    }
+
+    .error-message {
+      color: #fe4a49;
+      text-align: center;
+      font-size: 13px;
+      margin-top: 13px;
+    }
+
+    .img {
+      text-align: center;
+    }
+
+    span {
+      font-size: 11px;
+      font-weight: 600;
+      margin-top: 2px;
+    }
+
+    .btn-container {
+      text-align: right;
+      margin-top: 20px;
+
+      button {
+        position: relative;
+        width: 200px;
+        height: 40px;
+        border-radius: 20px;
+        border: 0;
+        background-color: #e6e6e6;
+        border-color: #e6e6e6;
+        color: #202020;
+        font-weight: bold;
+        font-size: 13px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #cccccc;
+          border-color: #cccccc;
+        }
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+}
+
+.modal-body {
+  text-align: center;
+
+  img {
+    margin-bottom: 15px;
+  }
+}
+
+.loader4 {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  padding: 0px;
+  border-radius: 100%;
+  border: 5px solid;
+  position: absolute;
+  right: 13px;
+  border-top-color: #045de9;
+  border-bottom-color: rgba(255, 255, 255, 0.3);
+  border-left-color: #045de9;
+  border-right-color: rgba(255, 255, 255, 0.3);
+  -webkit-animation: loader4 1s ease-in-out infinite;
+  animation: loader4 1s ease-in-out infinite;
+}
+
+@keyframes loader4 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes loader4 {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@media only screen and (min-device-width: 20px) and (max-device-width: 991px) and (orientation: landscape) {
+  .app {
+    height: auto;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 446px) {
+  .app {
+    .app-container {
+      height: 100%;
+      border-radius: 0;
+      justify-content: center;
+
+      .btn-container {
+        text-align: center;
+
+        button {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
