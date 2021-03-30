@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-send-sms/static/css/main.404b48a9.chunk.css",
-    "main.js": "/react-send-sms/static/js/main.2d79b24a.chunk.js",
-    "main.js.map": "/react-send-sms/static/js/main.2d79b24a.chunk.js.map",
+    "main.css": "/react-send-sms/static/css/main.24f8e1cf.chunk.css",
+    "main.js": "/react-send-sms/static/js/main.006fc9a5.chunk.js",
+    "main.js.map": "/react-send-sms/static/js/main.006fc9a5.chunk.js.map",
     "runtime-main.js": "/react-send-sms/static/js/runtime-main.1147ba7e.js",
     "runtime-main.js.map": "/react-send-sms/static/js/runtime-main.1147ba7e.js.map",
     "static/css/2.af3c1da9.chunk.css": "/react-send-sms/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.70a9179a.chunk.js": "/react-send-sms/static/js/2.70a9179a.chunk.js",
-    "static/js/2.70a9179a.chunk.js.map": "/react-send-sms/static/js/2.70a9179a.chunk.js.map",
+    "static/js/2.a5fd3c83.chunk.js": "/react-send-sms/static/js/2.a5fd3c83.chunk.js",
+    "static/js/2.a5fd3c83.chunk.js.map": "/react-send-sms/static/js/2.a5fd3c83.chunk.js.map",
     "index.html": "/react-send-sms/index.html",
-    "precache-manifest.d97dd4af9b4c5e87b210a964e5c507ba.js": "/react-send-sms/precache-manifest.d97dd4af9b4c5e87b210a964e5c507ba.js",
+    "precache-manifest.9d47a689b13f4ef0ce5876015f6e663c.js": "/react-send-sms/precache-manifest.9d47a689b13f4ef0ce5876015f6e663c.js",
     "service-worker.js": "/react-send-sms/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/react-send-sms/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.404b48a9.chunk.css.map": "/react-send-sms/static/css/main.404b48a9.chunk.css.map",
-    "static/js/2.70a9179a.chunk.js.LICENSE.txt": "/react-send-sms/static/js/2.70a9179a.chunk.js.LICENSE.txt",
+    "static/css/main.24f8e1cf.chunk.css.map": "/react-send-sms/static/css/main.24f8e1cf.chunk.css.map",
+    "static/js/2.a5fd3c83.chunk.js.LICENSE.txt": "/react-send-sms/static/js/2.a5fd3c83.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/react-send-sms/static/media/Poppins-Medium.ba95810b.ttf",
     "static/media/check.svg": "/react-send-sms/static/media/check.8b4d6e74.svg",
     "static/media/mail.svg": "/react-send-sms/static/media/mail.da20cfba.svg"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.1147ba7e.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.70a9179a.chunk.js",
-    "static/css/main.404b48a9.chunk.css",
-    "static/js/main.2d79b24a.chunk.js"
+    "static/js/2.a5fd3c83.chunk.js",
+    "static/css/main.24f8e1cf.chunk.css",
+    "static/js/main.006fc9a5.chunk.js"
   ]
 }
